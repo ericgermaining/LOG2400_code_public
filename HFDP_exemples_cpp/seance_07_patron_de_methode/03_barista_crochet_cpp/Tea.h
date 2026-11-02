@@ -4,7 +4,7 @@
 #include "CaffeineBeverage.h"
 
 class Tea : public CaffeineBeverage {
-public:
+protected:
   void brew() override;
   void addCondiments() override;
   bool customerWantsCondiments() override;

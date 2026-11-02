@@ -4,8 +4,10 @@
 #include <iostream>
 
 class CaffeineBeverage {
- public:
-  void prepareRecipe();  
+public:
+  void prepareRecipe();
+
+protected:
   virtual void brew() = 0;
   virtual void addCondiments() = 0;
   void boilWater();
